@@ -1,0 +1,22 @@
+databaseChangeLog:
+  - include:
+      file: changes/001-create-addresses-table.sql
+      relativeToChangelogFile: true
+  - include:
+      file: changes/002-create-contacts-table.sql
+      relativeToChangelogFile: true
+  - include:
+      file: changes/003-create-arrival-times-table.sql
+      relativeToChangelogFile: true
+  - include:
+      file: changes/004-create-hotels-table.sql
+      relativeToChangelogFile: true
+  - include:
+      file: changes/005-create-amenities-table.sql
+      relativeToChangelogFile: true
+  - include:
+      file: changes/006-create-hotel-amenity-table.sql
+      relativeToChangelogFile: true
+  - include:
+      file: changes/007-insert-test-data.sql
+      relativeToChangelogFile: true
